@@ -89,6 +89,7 @@ function draw() {
     
   
   camera.x=trex.x+300;
+  camera.y=trex.y-200;
   
   if (gameState===PLAY){
     score = score + Math.round(getFrameRate()/60);
